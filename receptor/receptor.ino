@@ -32,7 +32,7 @@
  
 ESP8266 wifi(Serial2);
 
-#define MYNUMBER "+346..."
+#include "mynumber.h"
 
 #define DISPLAY_NUMBER 0 // replace with 1 if you want display the phone number 
 
