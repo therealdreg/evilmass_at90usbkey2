@@ -9,3 +9,5 @@ Also check:
 talk in spanish: https://www.youtube.com/watch?v=IT71_qX5xiI
 
 talk in english: https://www.youtube.com/watch?v=5-ly4IyrD1Q
+
+warning: this is a POC just for fun and the code is pure crap x-), btw my english sucks. I am a hardware noob.
