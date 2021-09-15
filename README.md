@@ -18,10 +18,6 @@ my pull request adding new ClassDriver MassStorageSDKeyboard Demo for LUFA - the
 
 https://github.com/abcminiuser/lufa/pull/158
 
-my talk in english (translated by who knows):
-
-https://www.youtube.com/watch?v=5-ly4IyrD1Q
-
 Just my own adaptation for mass storage sd card and keyboard for AT90USBKEY2.
 
 https://github.com/David-Reguera-Garcia-Dreg/lufa-sdcard-mass-storagekeyboard-fatfs-AT90USBKEY2
