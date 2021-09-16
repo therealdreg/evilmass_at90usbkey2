@@ -4,6 +4,8 @@ This is the official post to ask about this project: https://www.driverentry.com
 
 WARNING: this is a DIY-POC just for fun and the code is pure crap x-), btw my english sucks and I am a hardware noob. Thx to esTse for the english fixes! 
 
+![lastprot](https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/lastprot.PNG)
+
 my roapt v1 board
 
 The objective of this project is to create an USB device to exfiltrate data from an isolated environment via radio frequency using 433MHz ASK, this allows us to exfiltrate small amounts of information such as digital certificates without the need for an internet connection and at a considerable distance with great penetration unlike 2.4GHz.
@@ -30,6 +32,7 @@ if you want to play with this kind of stuff the prototype board is: AT90USBKEY2 
 
 http://aem-origin.microchip.com/en-us/development-tool/AT90USBKEY2
 
+![usbkey](https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/usbkey.PNG)
 
 at90usb1287
 USB software interface for Device Firmware Upgrade (DFU bootloader) 
@@ -152,11 +155,10 @@ USB device 12 Mbit/sec, USB host 480 Mbit/sec
 32 general purpose DMA channels
 Cryptographic Acceleration & Random Number Generator
 RTC for date/time
+
 https://www.pjrc.com/store/teensy36.html
 
- 
-
-
+![teensy](https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/teensy.PNG)
 
 FRDM-K66F (NXP Kinetis MK66FN2M0VMD18):
 
@@ -207,11 +209,12 @@ Two CAN, three SPI and four I2C modules
 Low Power Universal Asynchronous Receiver/ Transmitter 0 (LPUART0) and five standard UARTs
 Secure Digital Host Controller (SDHC)
 I2S module
+
+![FRDMK66F](https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/FRDM-K66F.PNG)
+
 https://www.nxp.com/docs/en/data-sheet/K66P144M180SF5V2.pdf
 
 https://www.nxp.com/design/development-boards/freedom-development-boards/mcu-boards/freedom-development-platform-for-kinetis-k66-k65-and-k26-mcus:FRDM-K66F
-
-
 
 my pull request adding new ClassDriver MassStorageSDKeyboard Demo for LUFA - the Lightweight USB Framework for AVRs:
 
