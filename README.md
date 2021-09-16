@@ -4,6 +4,8 @@
 
 https://www.driverentry.com/node/104
 
+DM via Twitter @fr33project https://twitter.com/fr33project
+
 **WARNING: this is a DIY-POC just for fun and the code is pure crap x-), btw my english sucks and I am a hardware noob**
 
 ![lastprot](https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/lastprot.PNG)
@@ -256,7 +258,4 @@ FatFS + TTL UART + MICRO SD + ATMEL ICE JTAG DEBUGGING:
 
 NOTE: I have no plans to make/sell more roapt v1 boards. I don't want to spend money on this xD.
 
-ARM POC version is coming, DM via Twitter @fr33project
-
-https://twitter.com/fr33project
-
+ARM POC version is coming
