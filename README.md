@@ -1,6 +1,8 @@
 evil mass storage *AT90USBKEY2 (poc-malware-tool for offline system)
 
-This is the official post to ask about this project: https://www.driverentry.com/node/104
+This is the official post to ask about this project: 
+
+https://www.driverentry.com/node/104
 
 WARNING: this is a DIY-POC just for fun and the code is pure crap x-), btw my english sucks and I am a hardware noob. Thx to esTse for the english fixes! 
 
@@ -14,14 +16,14 @@ In a physically isolated environment such as a Faraday cage we can use an altern
 
 Now let's see it in a more detailed way:
 
-infect a target machine without internet
-hardware: at90usb1287 + atmega328p + ts3usb221 + mosfet + sd card reader (SPI) + rf 433MHz ASK …
-multi-stage malware: only visible when connected to target
-exfiltrate info via:
-mass storage: crypts/decrypts & hides sectors (only crap-XOR, its an AVR-8 bit!)
-radio: RF 433MHz ASK (crap-XOR encryption)
-Firmware: keyboard + mass storage (USB composite device). LUFA + FatFs + Dreg adaptation “USB Mass storage SD card for Teensy2/ATMEGA32U4 by Mathieu Sonet”
-Dynamic: serial, VID, PID, USB Descriptor, decrypt/delete sectors…
+* infect a target machine without internet
+** hardware: at90usb1287 + atmega328p + ts3usb221 + mosfet + sd card reader (SPI) + rf 433MHz ASK …
+** multi-stage malware: only visible when connected to target
+** exfiltrate info via:
+*** mass storage: crypts/decrypts & hides sectors (only crap-XOR, its an AVR-8 bit!)
+*** radio: RF 433MHz ASK (crap-XOR encryption)
+** Firmware: keyboard + mass storage (USB composite device). LUFA + FatFs + Dreg adaptation “USB Mass storage SD card for Teensy2/ATMEGA32U4 by Mathieu Sonet”
+* Dynamic: serial, VID, PID, USB Descriptor, decrypt/delete sectors…
 
 All the source code its available in my github:
 
