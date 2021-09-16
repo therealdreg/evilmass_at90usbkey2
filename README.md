@@ -137,7 +137,7 @@ https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/ev
 
 https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/stage2/stage2/main.c#L183
 
-This attack its only useful to steal little info because SPI slow, RF 433MHz bandwich..
+**NOTE: This attack its only useful to steal little info because SPI slow, RF 433MHz bandwich..**
 
 ## I'm working in a new version. 
 
