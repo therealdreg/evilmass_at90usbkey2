@@ -83,7 +83,7 @@ The idea of the POC is only to infects one target machine. If you connect the US
 
 Demo video (in Spanish): https://youtu.be/-K6MMVyKEv0?t=346
 
-**Steps to reproduce an attack:**
+## Steps to reproduce an attack
 
 1. The victim connects the USB device.
  
@@ -137,7 +137,9 @@ https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/st
 
 This attack its only useful to steal little info because SPI slow, RF 433MHz bandwich..
 
-I'm working in a new version. Currently experimenting with two ARM Cortex-M4 32 bit boards: FRDM-K66F and Teensy 3.6 (Paul J Stoffregen + an awesome community pjrc + a lot of code).
+## I'm working in a new version. 
+
+Currently experimenting with two ARM Cortex-M4 32 bit boards: FRDM-K66F and Teensy 3.6 (Paul J Stoffregen + an awesome community pjrc + a lot of code).
 
 What I am looking for:
 
