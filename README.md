@@ -1,10 +1,10 @@
 evil mass storage *AT90USBKEY2 (poc-malware-tool for offline system)
 
-This is the official post to ask about this project: 
+**This is the official post to ask about this project:** 
 
 https://www.driverentry.com/node/104
 
-WARNING: this is a DIY-POC just for fun and the code is pure crap x-), btw my english sucks and I am a hardware noob. Thx to esTse for the english fixes! 
+**WARNING: this is a DIY-POC just for fun and the code is pure crap x-), btw my english sucks and I am a hardware noob**
 
 ![lastprot](https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/lastprot.PNG)
 
@@ -29,7 +29,7 @@ All the source code its available in my github:
 
 https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2
  
-WARNING: This is not a rubber ducky! xD
+**WARNING: This is not a rubber ducky! xD**
 
 if you want to play with this kind of stuff the prototype board is: AT90USBKEY2 (at90usb1287)
 
