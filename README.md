@@ -56,7 +56,7 @@ http://aem-origin.microchip.com/en-us/development-tool/AT90USBKEY2
 * On-board HWB button to force bootloader section execution at reset.
 * System clock: 8 MHz
 
-If you dont like AT90USBKEY2 and you know what are you doing, you can port my code easily to Teensy++ 2.0 Development Board (AT90USB12**86**):
+If you dont like **AT90USBKEY2** and you know what are you doing, you can port my code easily to **Teensy++ 2.0** Development Board (AT90USB12**86**):
 
 https://www.pjrc.com/store/teensypp.html
 
@@ -148,7 +148,8 @@ What I am looking for:
 NOTE: ARM Cortex-M4 its very very complex compared to AVR-8 bit, you should read this (hard) book:
 
 The Definitive Guide to ARM Cortex-M3 and Cortex-M4 Processors Third Edition by Joseph Yiu. ARM Ltd., Cambridge, UK
-Teensy 3.6 ARM Cortex-M4 (NXP Kinetis MK66**FX**1M0VMD18) 180MHz:
+
+**Teensy 3.6** ARM Cortex-M4 (NXP Kinetis MK66**FX**1M0VMD18) 180MHz:
 
 * **ARM Cortex-M4 at 180 MHz**
 * Float point math unit, 32 bits only
@@ -168,7 +169,7 @@ https://www.pjrc.com/store/teensy36.html
 
 ![teensy](https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/teensy.PNG)
 
-FRDM-K66F (NXP Kinetis MK66**FN**2M0VMD18):
+**FRDM-K66F** (NXP Kinetis MK66**FN**2M0VMD18):
 
 * Performance
 
