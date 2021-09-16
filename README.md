@@ -37,26 +37,26 @@ http://aem-origin.microchip.com/en-us/development-tool/AT90USBKEY2
 
 ![usbkey](https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/usbkey.PNG)
 
-at90usb1287
-USB software interface for Device Firmware Upgrade (DFU bootloader) 
-Power supply flagged by “VCC-ON” LED:
-regulated 3.3V
-from an external battery connector (for reduced host or OTG operation) 
-from the USB interface (USB device bus powered application)
-JTAG interface (connector not mounted):
-for on-chip ISP
-for on-chip debugging using JTAG ICE
-Serial interfaces: 1 USB full/low speed device/host/OTG interface
-On-board resources:
-4+1-ways joystick
-2 Bi-Color LEDs – temperature sensor
-serial dataflash memories
-all microcontroller I/O ports access on 2x8pin headers (not mounted)
-On-board RESET button
-On-board HWB button to force bootloader section execution at reset.
-System clock: 8 MHz
+* at90usb12**87**
+* USB software interface for Device Firmware Upgrade (DFU bootloader) 
+* Power supply flagged by “VCC-ON” LED:
+  * regulated 3.3V
+  * from an external battery connector (for reduced host or OTG operation) 
+  * from the USB interface (USB device bus powered application)
+* JTAG interface (connector not mounted):
+  * for on-chip ISP
+   * for on-chip debugging using JTAG ICE
+* Serial interfaces: 1 USB full/low speed device/host/OTG interface
+* On-board resources:
+  * 4+1-ways joystick
+  * 2 Bi-Color LEDs – temperature sensor
+  * serial dataflash memories
+  * all microcontroller I/O ports access on 2x8pin headers (not mounted)
+* On-board RESET button
+* On-board HWB button to force bootloader section execution at reset.
+* System clock: 8 MHz
 
-If you dont like AT90USBKEY2 and you know what are you doing, you can port my code easily to Teensy++ 2.0 Development Board (AT90USB1286):
+If you dont like AT90USBKEY2 and you know what are you doing, you can port my code easily to Teensy++ 2.0 Development Board (AT90USB12**86**):
 
 https://www.pjrc.com/store/teensypp.html
 
@@ -141,82 +141,89 @@ I'm working in a new version. Currently experimenting with two ARM Cortex-M4 32 
 
 What I am looking for:
 
-Fast microcontroller ARM Cortex-M4 at 180 MHz
-A real SDIO interface (fast SD access)
-Cryptographic Acceleration & Random Number Generator (I want to use AES to encrypt/decrypt sectors...).
+* Fast microcontroller ARM Cortex-M4 at 180 MHz
+* A real SDIO interface (fast SD access)
+* Cryptographic Acceleration & Random Number Generator (I want to use AES to encrypt/decrypt sectors...).
 
 NOTE: ARM Cortex-M4 its very very complex compared to AVR-8 bit, you should read this (hard) book:
 
 The Definitive Guide to ARM Cortex-M3 and Cortex-M4 Processors Third Edition by Joseph Yiu. ARM Ltd., Cambridge, UK
-Teensy 3.6 ARM Cortex-M4 (NXP Kinetis MK66FX1M0VMD18) 180MHz:
+Teensy 3.6 ARM Cortex-M4 (NXP Kinetis MK66**FX**1M0VMD18) 180MHz:
 
-ARM Cortex-M4 at 180 MHz
-Float point math unit, 32 bits only
-1024 Flash, 256K RAM, 4K EEPROM
-USB device 12 Mbit/sec, USB host 480 Mbit/sec
-64 digital input/output pins, 22 PWM output pins
-25 analog input pins, 2 analog output pins, 11 capacitive sense pins
-6 serial, 3 SPI, 4 I2C ports
-1 I2S/TDM digital audio port
-2 CAN bus
-1 SDIO (4 bit) native SD Card port
-32 general purpose DMA channels
-Cryptographic Acceleration & Random Number Generator
-RTC for date/time
+* **ARM Cortex-M4 at 180 MHz**
+* Float point math unit, 32 bits only
+* 1024 Flash, 256K RAM, 4K EEPROM
+* **USB device 12 Mbit/sec, USB host 480 Mbit/sec**
+* 64 digital input/output pins, 22 PWM output pins
+* 25 analog input pins, 2 analog output pins, 11 capacitive sense pins
+* 6 serial, 3 SPI, 4 I2C ports
+* 1 I2S/TDM digital audio port
+* 2 CAN bus
+* **1 SDIO (4 bit) native SD Card port**
+* 32 general purpose DMA channels
+* **Cryptographic Acceleration & Random Number Generator**
+* RTC for date/time
 
 https://www.pjrc.com/store/teensy36.html
 
 ![teensy](https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/teensy.PNG)
 
-FRDM-K66F (NXP Kinetis MK66FN2M0VMD18):
+FRDM-K66F (NXP Kinetis MK66**FN**2M0VMD18):
 
-Performance
+* Performance
 
-Up to 180 MHz ARM Cortex-M4 based core with DSP instructions and Single Precision Floating Point unit
-System and Clocks
+  * Up to **180 MHz ARM Cortex-M4** based core with DSP instructions and Single Precision Floating Point unit
 
-Multiple low-power modes to provide power optimization based on application requirements
-Memory protection unit with multi-master protection
-3 to 32 MHz main crystal oscillator
-32 kHz low power crystal oscillator
-48 MHz internal reference
-Security
+* System and Clocks
 
-Hardware random-number generator
-Supports DES, AES, SHA accelerator (CAU)
-Multiple levels of embedded flash security
-Timers
+  * Multiple low-power modes to provide power optimization based on application requirements
+  * Memory protection unit with multi-master protection
+  * 3 to 32 MHz main crystal oscillator
+  * 32 kHz low power crystal oscillator
+  * 48 MHz internal reference
 
-Four Periodic interrupt timers
-16-bit low-power timer
-Two 16-bit low-power timer PWM modules
-Two 8-channel motor control/general purpose/PWM timers
-Two 2-ch quad decoder/general purpose timers
-Real-time clock
-Human-machine interface
+* Security
 
-Low-power hardware touch sensor interface (TSI)
-General-purpose input/output
-Memories and memory expansion
+  * Hardware random-number generator
+  * Supports DES, AES, SHA accelerator (CAU)
+  * Multiple levels of embedded flash security
+  
+* Timers
 
-Up to 2 MB program flash memory on nonFlexMemory devices with 256 KB RAM
-Up to 1 MB program flash memory and 256 KB of FlexNVM on FlexMemory devices
-4 KB FlexRAM on FlexMemory devices
-FlexBus external bus interface and SDRAM controller
-Analog modules
+  * Four Periodic interrupt timers
+  * 16-bit low-power timer
+  * Two 16-bit low-power timer PWM modules
+  * Two 8-channel motor control/general purpose/PWM timers
+  * Two 2-ch quad decoder/general purpose timers
+  * Real-time clock
 
-Two 16-bit SAR ADCs and two 12-bit DAC
-Four analog comparators (CMP) containing a 6-bit DAC and programmable reference input
-Voltage reference 1.2V
-Communication interfaces
+* Human-machine interface
 
-Ethernet controller with MII and RMII interface to external PHY and hardware IEEE 1588 capability
-USB high-/full-/low-speed On-the-Go with on-chip high speed transceiver
-USB full-/low-speed OTG with on-chip transceiver
-Two CAN, three SPI and four I2C modules
-Low Power Universal Asynchronous Receiver/ Transmitter 0 (LPUART0) and five standard UARTs
-Secure Digital Host Controller (SDHC)
-I2S module
+  * Low-power hardware touch sensor interface (TSI)
+  * General-purpose input/output
+
+* Memories and memory expansion
+
+  * Up to 2 MB program flash memory on nonFlexMemory devices with 256 KB RAM
+  * Up to 1 MB program flash memory and 256 KB of FlexNVM on FlexMemory devices
+  * 4 KB FlexRAM on FlexMemory devices
+  * FlexBus external bus interface and SDRAM controller
+
+* Analog modules
+
+  * Two 16-bit SAR ADCs and two 12-bit DAC
+  * Four analog comparators (CMP) containing a 6-bit DAC and programmable reference input
+  * Voltage reference 1.2V
+
+* Communication interfaces
+
+  * Ethernet controller with MII and RMII interface to external PHY and hardware IEEE 1588 capability
+  * USB high-/full-/low-speed On-the-Go with on-chip high speed transceiver
+  * USB full-/low-speed OTG with on-chip transceiver
+  * Two CAN, three SPI and four I2C modules
+  * Low Power Universal Asynchronous Receiver/ Transmitter 0 (LPUART0) and five standard UARTs
+  * Secure Digital Host Controller (SDHC)
+  * I2S module
 
 ![FRDMK66F](https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/FRDM-K66F.PNG)
 
