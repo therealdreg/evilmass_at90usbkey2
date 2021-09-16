@@ -133,6 +133,7 @@ https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/ev
 https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/evilard/evilard.ino#L176
 
 https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/stage2/stage2/main.c#L183
+
 This attack its only useful to steal little info because SPI slow, RF 433MHz bandwich..
 
 I'm working in a new version. Currently experimenting with two ARM Cortex-M4 32 bit boards: FRDM-K66F and Teensy 3.6 (Paul J Stoffregen + an awesome community pjrc + a lot of code).
@@ -224,21 +225,26 @@ https://www.nxp.com/design/development-boards/freedom-development-boards/mcu-boa
 my pull request adding new ClassDriver MassStorageSDKeyboard Demo for LUFA - the Lightweight USB Framework for AVRs:
 
 https://github.com/abcminiuser/lufa/pull/158
+
 my talk in english (translated by who knows):
 
 https://www.youtube.com/watch?v=5-ly4IyrD1Q
+
 Just my own adaptation for mass storage sd card and keyboard for AT90USBKEY2:
 
 https://github.com/David-Reguera-Garcia-Dreg/lufa-sdcard-mass-storagekeyboard-fatfs-AT90USBKEY2
+
 Presentation: 
 
 https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/Roapt%20evil%20mass%20storage.pdf
+
 FatFS + TTL UART + MICRO SD + ATMEL ICE JTAG DEBUGGING:
 
 ![jtag_and_uart.jpg](https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/jtag_and_uart.jpg)
 
-
 NOTE: I have no plans to make/sell more roapt v1 boards. I don't want to spend money on this xD.
 
 ARM POC version is coming, DM via Twitter @fr33project
+
+https://twitter.com/fr33project
 
