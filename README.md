@@ -230,6 +230,7 @@ Presentation: 
 https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/Roapt%20evil%20mass%20storage.pdf
 FatFS + TTL UART + MICRO SD + ATMEL ICE JTAG DEBUGGING:
 
+![jtag_and_uart.jpg](https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/jtag_and_uart.jpg)
 
 
 NOTE: I have no plans to make/sell more roapt v1 boards. I don't want to spend money on this xD.
