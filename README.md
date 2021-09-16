@@ -22,6 +22,7 @@ mass storage: crypts/decrypts & hides sectors (only crap-XOR, its an AVR-8 bit!)
 radio: RF 433MHz ASK (crap-XOR encryption)
 Firmware: keyboard + mass storage (USB composite device). LUFA + FatFs + Dreg adaptation “USB Mass storage SD card for Teensy2/ATMEGA32U4 by Mathieu Sonet”
 Dynamic: serial, VID, PID, USB Descriptor, decrypt/delete sectors…
+
 All the source code its available in my github:
 
 https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2
@@ -55,12 +56,14 @@ System clock: 8 MHz
 If you dont like AT90USBKEY2 and you know what are you doing, you can port my code easily to Teensy++ 2.0 Development Board (AT90USB1286):
 
 https://www.pjrc.com/store/teensypp.html
+
 I developed a private version of evil mass storage using Teensy++ 2.0. This version will never be public (dont worry, its pure crap xD). Btw, Teensy++2.0 board (16 MHz) is faster than AT90USBKEY2 (8 MHz).
 
 USB can be a little pain in the ass. I recommend to read two essentials books by Jan Axelson:
 
-USB Mass Storage: Designing and Programming Devices and Embedded Hosts
-USB Complete: The Developer's Guide (Complete Guides series), Fifth edition.
+* USB Mass Storage: Designing and Programming Devices and Embedded Hosts
+* USB Complete: The Developer's Guide (Complete Guides series), Fifth edition.
+
 The book's code its not for AVR-8 bit, but its very well explained.
 
 The first prototype was this chaos:
