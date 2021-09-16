@@ -55,6 +55,7 @@ all microcontroller I/O ports access on 2x8pin headers (not mounted)
 On-board RESET button
 On-board HWB button to force bootloader section execution at reset.
 System clock: 8 MHz
+
 If you dont like AT90USBKEY2 and you know what are you doing, you can port my code easily to Teensy++ 2.0 Development Board (AT90USB1286):
 
 https://www.pjrc.com/store/teensypp.html
@@ -143,6 +144,7 @@ What I am looking for:
 Fast microcontroller ARM Cortex-M4 at 180 MHz
 A real SDIO interface (fast SD access)
 Cryptographic Acceleration & Random Number Generator (I want to use AES to encrypt/decrypt sectors...).
+
 NOTE: ARM Cortex-M4 its very very complex compared to AVR-8 bit, you should read this (hard) book:
 
 The Definitive Guide to ARM Cortex-M3 and Cortex-M4 Processors Third Edition by Joseph Yiu. ARM Ltd., Cambridge, UK
