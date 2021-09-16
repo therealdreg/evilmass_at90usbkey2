@@ -28,7 +28,7 @@ Now let's see it in a more detailed way:
 All the source code its available in my github:
 
 https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2
- 
+
 **WARNING: This is not a rubber ducky! xD**
 
 if you want to play with this kind of stuff the prototype board is: AT90USBKEY2 (at90usb1287)
