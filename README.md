@@ -94,17 +94,17 @@ https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/ev
 https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/evilmass/evilmass/Lib/SCSI.c#L88
 
 https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/evilmass/evilmass/Lib/SDCardManager.c#L150
- 
+
 The USB device its an USB composite device (not an USB HUB, again... read the books!!). Windows will detect it as a new keyboard and a new mass storage device.
 
 https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/evilmass/evilmass/Descriptors.c#L193
- 
+
 The keyboard-device opens a run window (WIN + R) and starts to bruteforce the asigned letter for mass storage in order to execute the stored .exe in our mass storage. This exe its not the malware, its the first stage. It retrieves useful information like user name and writes it into the mass storage.
 
 https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/evilmass/evilmass/MassStorageKeyboard.c#L342
 
 https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/stage1/stage1/main.c#L90
- 
+
 The microcontroller gets the SCSI command and if the info it's correct it resets the USB connection, at this moment the malware is at the mass storage. This malware its decrypted (the POC uploaded its only a crap-XOR) using the information written in the mass storage... if evil mass storage it's not connected to the target computer, malware won't be in it. 
 
 https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/evilmass/evilmass/MassStorageKeyboard.c#L317
@@ -114,19 +114,19 @@ https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/ev
 https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/evilmass/evilmass/Lib/SCSI.c#L370
 
 https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/evilmass/evilmass/Lib/SDCardManager.c#L587
- 
+
 The malware is executed and the microcontroller removes all sectors of the malware from the SD.
 
 https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/evilmass/evilmass/Lib/SDCardManager.c#L163
 
 https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/evilmass/evilmass/MassStorageKeyboard.c#L125
- 
+
 From this moment, the USB device will only work as a regular USB mass storage (keyboard part is removed). The VID-PID + other USB info gets changed again.
 
 https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/evilmass/evilmass/Descriptors.c#L97
 
 https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/evilmass/evilmass/Descriptors.c#L288
- 
+
 The malware exfiltrates data writting the mass storage and the microcontroller resends the information via rf 433MHz ASK (helped by a atmega328p). It also supports the exfiltration via the SD card (encrypting the information first).
 
 https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/evilmass/evilmass/Lib/SDCardManager.c#L438
