@@ -14,7 +14,7 @@ DM via Twitter @fr33project https://twitter.com/fr33project
 
 The objective of this project is to create an USB device to exfiltrate data from an isolated environment via radio frequency using 433MHz ASK, this allows us to exfiltrate small amounts of information such as digital certificates without the need for an internet connection and at a considerable distance with great penetration unlike 2.4GHz.
 
-In a physically isolated environment such as a Faraday cage we can use an alternative version which exfiltrates the information (crypted-first) to a micro SD. It's important to understand that this is very different from a rubber ducky, while the rubber ducky acts as a fake keyboard the evil mass storage its composed of keyboard firmware + radio frequency exfiltration system + mass storage, this gives us a very versatile tool.
+In a physically isolated environment such as a Faraday cage we can use an alternative version which exfiltrates the information (crypted-first) to a micro SD. It's important to understand that this is very different from a rubber ducky, while the rubber ducky acts as a fake keyboard the evil mass storage its composed of keyboard + radio frequency exfiltration system + mass storage, this gives us a very versatile tool.
 
 Now let's see it in a more detailed way:
 
