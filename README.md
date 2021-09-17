@@ -129,7 +129,7 @@ https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/ev
 
 https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/evilmass/evilmass/Descriptors.c#L288
 
-8. The malware exfiltrates data writting the mass storage and the microcontroller resends the information via rf 433MHz ASK (helped by a atmega328p). It also supports the exfiltration via the SD card (encrypting the information first).
+8. The malware exfiltrates data writting the mass storage and the microcontroller resends the information via rf 433MHz ASK (helped by an **atmega328p**). It also supports the exfiltration via the SD card (encrypting the information first).
 
 https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/evilmass/evilmass/Lib/SDCardManager.c#L438
 
@@ -141,7 +141,7 @@ https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/st
 
 ## I'm working in a new version. 
 
-Currently experimenting with two ARM Cortex-M4 32 bit boards: FRDM-K66F MK66**FN2**M0VMD18 and Teensy 3.6 MK66**FX1**M0VMD18 (Paul J Stoffregen + an awesome community pjrc + a lot of code).
+Currently experimenting with two ARM Cortex-M4 32 bit boards: **FRDM-K66F** MK66**FN2**M0VMD18 and **Teensy 3.6** MK66**FX1**M0VMD18 (Paul J Stoffregen + an awesome community pjrc + a lot of code).
 
 What I am looking for:
 
@@ -258,4 +258,4 @@ FatFS + TTL UART + MICRO SD + ATMEL ICE JTAG DEBUGGING:
 
 **NOTE: I have no plans to make/sell more roapt v1 boards. I don't want to spend money on this xD.**
 
-**ARM POC version is coming**
+ARM POC version is coming
