@@ -39,7 +39,7 @@ http://aem-origin.microchip.com/en-us/development-tool/AT90USBKEY2
 
 ![usbkey](https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/usbkey.PNG)
 
-* at90usb12**87**
+* at90usb1287
 * USB software interface for Device Firmware Upgrade (DFU bootloader) 
 * Power supply flagged by “VCC-ON” LED:
   * regulated 3.3V
@@ -58,11 +58,11 @@ http://aem-origin.microchip.com/en-us/development-tool/AT90USBKEY2
 * On-board HWB button to force bootloader section execution at reset.
 * System clock: 8 MHz
 
-If you dont like **AT90USBKEY2** and you know what are you doing, you can port my code easily to **Teensy++ 2.0** Development Board (AT90USB12**86**):
+If you dont like **AT90USBKEY2** (at90usb12**87**) and you know what are you doing, you can port my code easily to **Teensy++ 2.0** Development Board (AT90USB12**86**):
 
 https://www.pjrc.com/store/teensypp.html
 
-I developed a private version of evil mass storage using Teensy++ 2.0. This version will never be public (dont worry, its pure crap xD). Btw, Teensy++2.0 board (16 MHz) is faster than AT90USBKEY2 (8 MHz).
+I developed a private version of evil mass storage using Teensy++ 2.0. This version will never be public (dont worry, its pure crap xD). Btw, Teensy++2.0 board (**16 MHz**) is faster than AT90USBKEY2 (**8 MHz**).
 
 USB can be a little pain in the ass. I recommend to read two essentials books by Jan Axelson:
 
@@ -141,7 +141,7 @@ https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/st
 
 ## I'm working in a new version. 
 
-Currently experimenting with two ARM Cortex-M4 32 bit boards: FRDM-K66F and Teensy 3.6 (Paul J Stoffregen + an awesome community pjrc + a lot of code).
+Currently experimenting with two ARM Cortex-M4 32 bit boards: FRDM-K66F MK66**FN2**M0VMD18 and Teensy 3.6 MK66**FX1**M0VMD18 (Paul J Stoffregen + an awesome community pjrc + a lot of code).
 
 What I am looking for:
 
@@ -149,11 +149,11 @@ What I am looking for:
 * A real SDIO interface (fast SD access)
 * Cryptographic Acceleration & Random Number Generator (I want to use AES to encrypt/decrypt sectors...).
 
-NOTE: ARM Cortex-M4 its very very complex compared to AVR-8 bit, you should read this (hard) book:
+**NOTE: ARM Cortex-M4 its very very complex compared to AVR-8 bit, you should read this (hard) book:**
 
 The Definitive Guide to ARM Cortex-M3 and Cortex-M4 Processors Third Edition by Joseph Yiu. ARM Ltd., Cambridge, UK: https://amzn.to/3tMbfzC
 
-**Teensy 3.6** ARM Cortex-M4 (NXP Kinetis MK66**FX**1M0VMD18) 180MHz:
+**Teensy 3.6** ARM Cortex-M4 (NXP Kinetis MK66**FX1**M0VMD18) 180MHz:
 
 * **ARM Cortex-M4 at 180 MHz**
 * Float point math unit, 32 bits only
@@ -173,7 +173,7 @@ https://www.pjrc.com/store/teensy36.html
 
 ![teensy](https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/teensy.PNG)
 
-**FRDM-K66F** (NXP Kinetis MK66**FN**2M0VMD18):
+**FRDM-K66F** (NXP Kinetis MK66**FN2**M0VMD18):
 
 * Performance
 
@@ -189,9 +189,9 @@ https://www.pjrc.com/store/teensy36.html
 
 * Security
 
-  * Hardware random-number generator
-  * Supports DES, AES, SHA accelerator (CAU)
-  * Multiple levels of embedded flash security
+  * **Hardware random-number generator**
+  * **Supports DES, AES, SHA accelerator (CAU)**
+  * **Multiple levels of embedded flash security**
   
 * Timers
 
@@ -223,11 +223,11 @@ https://www.pjrc.com/store/teensy36.html
 * Communication interfaces
 
   * Ethernet controller with MII and RMII interface to external PHY and hardware IEEE 1588 capability
-  * USB high-/full-/low-speed On-the-Go with on-chip high speed transceiver
-  * USB full-/low-speed OTG with on-chip transceiver
+  * **USB high-/full-/low-speed On-the-Go with on-chip high speed transceiver**
+  * **USB full-/low-speed OTG with on-chip transceiver**
   * Two CAN, three SPI and four I2C modules
   * Low Power Universal Asynchronous Receiver/ Transmitter 0 (LPUART0) and five standard UARTs
-  * Secure Digital Host Controller (SDHC)
+  * **Secure Digital Host Controller (SDHC)**
   * I2S module
 
 ![FRDMK66F](https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/FRDM-K66F.PNG)
@@ -244,11 +244,11 @@ my talk in english (translated by who knows):
 
 https://www.youtube.com/watch?v=5-ly4IyrD1Q
 
-Just my own adaptation for mass storage sd card and keyboard for AT90USBKEY2:
+just my own adaptation for mass storage sd card and keyboard for AT90USBKEY2:
 
 https://github.com/David-Reguera-Garcia-Dreg/lufa-sdcard-mass-storagekeyboard-fatfs-AT90USBKEY2
 
-Presentation: 
+presentation: 
 
 https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/Roapt%20evil%20mass%20storage.pdf
 
