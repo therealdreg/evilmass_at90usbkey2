@@ -2,7 +2,7 @@
 
 **This is the official post to ask about this project:** 
 
-https://www.driverentry.com/node/104
+  * https://www.driverentry.com/node/104
 
 DM via Twitter @fr33project https://twitter.com/fr33project
 
@@ -29,13 +29,13 @@ Now let's see it in a more detailed way:
 
 All the source code its available in my github:
 
-https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2
+  * https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2
 
 **WARNING: This is not a rubber ducky! xD**
 
 if you want to play with this kind of stuff the prototype board is: AT90USBKEY2 (at90usb1287)
 
-http://aem-origin.microchip.com/en-us/development-tool/AT90USBKEY2
+  * http://aem-origin.microchip.com/en-us/development-tool/AT90USBKEY2
 
 ![usbkey](https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/usbkey.PNG)
 
@@ -60,7 +60,7 @@ http://aem-origin.microchip.com/en-us/development-tool/AT90USBKEY2
 
 If you dont like **AT90USBKEY2** (at90usb12**87**) and you know what are you doing, you can port my code easily to **Teensy++ 2.0** Development Board (AT90USB12**86**):
 
-https://www.pjrc.com/store/teensypp.html
+  * https://www.pjrc.com/store/teensypp.html
 
 I developed a private version of evil mass storage using Teensy++ 2.0. This version will never be public (dont worry, its pure crap xD). Btw, Teensy++2.0 board (**16 MHz**) is faster than AT90USBKEY2 (**8 MHz**).
 
@@ -141,7 +141,7 @@ What I am looking for:
 
 **NOTE: ARM Cortex-M4 its very very complex compared to AVR-8 bit, you should read this (hard) book:**
 
-The Definitive Guide to ARM Cortex-M3 and Cortex-M4 Processors Third Edition by Joseph Yiu. ARM Ltd., Cambridge, UK: https://amzn.to/3tMbfzC
+  * The Definitive Guide to ARM Cortex-M3 and Cortex-M4 Processors Third Edition by Joseph Yiu. ARM Ltd., Cambridge, UK: https://amzn.to/3tMbfzC
 
 **Teensy 3.6** ARM Cortex-M4 (NXP Kinetis MK66**FX1**M0VMD18) 180MHz:
 
