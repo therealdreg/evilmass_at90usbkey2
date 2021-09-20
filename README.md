@@ -1,8 +1,10 @@
 ## evil mass storage *AT90USBKEY2 (poc-malware-tool for offline system)
 
 **This is the official post to ask about this project:** 
-
   * https://www.driverentry.com/node/104
+
+**An awesome article about the project by Daniel Brooks (better explained than this post):** 
+  * https://www.driverentry.com/article/112
 
 DM via Twitter @fr33project https://twitter.com/fr33project
 
