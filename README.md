@@ -5,7 +5,6 @@
 
 **An awesome article about the project by Daniel Brooks (better explained than this post):** 
   * https://www.driverentry.com/article/112
-  * Backup: https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/Evil%20Mass%20Storage%20-%20DriverEntry%20-%20article%20by%20Daniel%20Brooks.pdf
 
 DM via Twitter @fr33project https://twitter.com/fr33project
 
@@ -244,6 +243,9 @@ just my own adaptation for mass storage sd card and keyboard for AT90USBKEY2:
 presentation: 
 
   * https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/Roapt%20evil%20mass%20storage.pdf
+
+**Backup article by Daniel Brooks (better explained than this post):** 
+  * https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/Evil%20Mass%20Storage%20-%20DriverEntry%20-%20article%20by%20Daniel%20Brooks.pdf
 
 FatFS + TTL UART + MICRO SD + ATMEL ICE JTAG DEBUGGING:
 
