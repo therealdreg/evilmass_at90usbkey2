@@ -8,7 +8,7 @@
 
 DM via Twitter @fr33project https://twitter.com/fr33project
 
-**WARNING: this is a DIY-POC just for fun and the code is pure crap x-), btw my english sucks and I am a hardware noob**
+**WARNING: this is a DIY-POC just for fun and the code is pure crap x-), btw my english sucks and I am a hardware noob. btw, CORSAIR KEYBOARD can cause problems with ATMEL ICE, put the keyboard in BIOS MODE**
 
 ![lastprot](https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/lastprot.PNG)
 
