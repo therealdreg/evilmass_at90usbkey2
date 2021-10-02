@@ -232,6 +232,10 @@ my pull request adding new ClassDriver MassStorageSDKeyboard Demo for LUFA - the
 
   * https://github.com/abcminiuser/lufa/pull/158
 
+Original sources and programs for AT90USBKEY2 + own code & patches:
+
+  * https://github.com/David-Reguera-Garcia-Dreg/AT90USBKEY2
+
 my talk in english (translated by who knows):
 
   * https://www.youtube.com/watch?v=5-ly4IyrD1Q
