@@ -68,8 +68,8 @@ I developed a private version of evil mass storage using Teensy++ 2.0. This ver
 
 USB can be a little pain in the ass. I recommend to read two essentials books by Jan Axelson:
 
-* USB Mass Storage: Designing and Programming Devices and Embedded Hosts: https://amzn.to/3EqCynZ
-* USB Complete: The Developer's Guide (Complete Guides series), Fifth edition: https://amzn.to/3tUe8OT
+  * USB Mass Storage: Designing and Programming Devices and Embedded Hosts: https://amzn.to/3EqCynZ
+  * USB Complete: The Developer's Guide (Complete Guides series), Fifth edition: https://amzn.to/3tUe8OT
 
 The book's code its not for AVR-8 bit, but its very well explained.
 
