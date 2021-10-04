@@ -161,7 +161,7 @@ What I am looking for:
 * **Cryptographic Acceleration & Random Number Generator**
 * RTC for date/time
 
-https://www.pjrc.com/store/teensy36.html
+  * https://www.pjrc.com/store/teensy36.html
 
 ![teensy](https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/teensy.PNG)
 
@@ -224,9 +224,8 @@ https://www.pjrc.com/store/teensy36.html
 
 ![FRDMK66F](https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/blob/master/FRDM-K66F.PNG)
 
-https://www.nxp.com/docs/en/data-sheet/K66P144M180SF5V2.pdf
-
-https://www.nxp.com/design/development-boards/freedom-development-boards/mcu-boards/freedom-development-platform-for-kinetis-k66-k65-and-k26-mcus:FRDM-K66F
+  * https://www.nxp.com/docs/en/data-sheet/K66P144M180SF5V2.pdf
+  * https://www.nxp.com/design/development-boards/freedom-development-boards/mcu-boards/freedom-development-platform-for-kinetis-k66-k65-and-k26-mcus:FRDM-K66F
 
 my pull request adding new ClassDriver MassStorageSDKeyboard Demo for LUFA - the Lightweight USB Framework for AVRs:
 
