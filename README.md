@@ -6,7 +6,9 @@
 **An awesome article about the project by Daniel Brooks (better explained than this post):** 
   * https://www.driverentry.com/article/112
 
-DM via Twitter @fr33project https://twitter.com/fr33project
+Please, consider make a donation: https://github.com/sponsors/therealdreg
+
+DM via Twitter @therealdreg https://twitter.com/therealdreg
 
 **WARNING: this is a DIY-POC just for fun and the code is pure crap x-), btw my english sucks and I am a hardware noob. btw, CORSAIR KEYBOARD can cause problems with ATMEL ICE, put the keyboard in BIOS MODE**
 
